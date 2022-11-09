@@ -28,7 +28,7 @@ namespace WPFFILIPPOV_PR6
         private void Button_Click(object sender, RoutedEventArgs e)
         {
 
-            if (pwBox.Password.ToString() == "Bruh" && logBox.Password.ToString() == "Bruh")
+            if (pwBox.Password.ToString() == "Bruh" && logBox.Password.ToString() == "Bruh1")
             {
                 statusText.Text = "Верный bruh";
                 Window1 window1 = new Window1();
@@ -38,7 +38,7 @@ namespace WPFFILIPPOV_PR6
             {
                 MessageBox.Show("Неверный пароль");
             }
-            else if (logBox.Password.ToString() != "Bruh")
+            else if (logBox.Password.ToString() != "Bruh1")
             {
                 MessageBox.Show("Не найден логин");
             }

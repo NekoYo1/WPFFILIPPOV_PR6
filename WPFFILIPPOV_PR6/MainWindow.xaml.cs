@@ -28,19 +28,19 @@ namespace WPFFILIPPOV_PR6
         private void Button_Click(object sender, RoutedEventArgs e)
         {
 
-            if (pwBox.Password.ToString() == "12345" && logBox.Password.ToString() == "Deniska")
+            if (pwBox.Password.ToString() == "Bruh" && logBox.Password.ToString() == "Bruh")
             {
-                statusText.Text = "Пароль и логин верны";
+                statusText.Text = "Верный bruh";
                 Window1 window1 = new Window1();
                 window1.Show();
             }
-            else if (pwBox.Password.ToString() != "12345")
+            else if (pwBox.Password.ToString() != "Bruh")
             {
-                MessageBox.Show("Пароль не верный");
+                MessageBox.Show("Неверный пароль");
             }
-            else if (logBox.Password.ToString() != "Deniska")
+            else if (logBox.Password.ToString() != "Bruh")
             {
-                MessageBox.Show("Логин не верный");
+                MessageBox.Show("Не найден логин");
             }
         }
     }

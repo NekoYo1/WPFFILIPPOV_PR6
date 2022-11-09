@@ -13,8 +13,8 @@
          VerticalAlignment = "Top" Width = "70" />
         <Button Content = "Войти" HorizontalAlignment = "Left" Margin = "421,223,0,0" 
          VerticalAlignment = "Top" Width = "75" Click = "Button_Click"/>
-        <TextBox Name = "statusText" HorizontalAlignment = "Left" Margin = "539,102,0,0"  
-         VerticalAlignment = "Top" Width = "200" Height = "38"/>
+        <TextBox Name = "statusText" HorizontalAlignment = "Left" Margin = "287,22,0,0"  
+         VerticalAlignment = "Top" Width = "200" Height = "38" Visibility="Hidden"/>
         <Label Content = "Логин" HorizontalAlignment = "Left" Margin = "204,114,0,0"  
             VerticalAlignment = "Top" Width = "70" />
         <PasswordBox x:Name = "logBox" Height = "35" Width = "200" 

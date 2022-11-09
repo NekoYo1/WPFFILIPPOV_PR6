@@ -7,10 +7,10 @@
         mc:Ignorable="d"
         Title="Window1" Height="450" Width="800">
     <Grid>
-        <Button Content="По дату" HorizontalAlignment="Left" Margin="346,353,0,0" VerticalAlignment="Top" Width="139" Click="Button_Click"/>
+        <Button HorizontalAlignment="Left" Margin="346,353,0,0" VerticalAlignment="Top" Width="139" Click="Button_Click" Content="По дате"/>
         <TextBox x:Name="textBlock1" HorizontalAlignment="Left" Height="23" Margin="531,353,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
-        <DatePicker x:Name="datePicker1" HorizontalAlignment="Left" Margin="71,22,0,0" VerticalAlignment="Top" Height="117" Width="163"/>
-        <DatePicker x:Name="datePicker2" HorizontalAlignment="Left" Margin="71,172,0,0" VerticalAlignment="Top" Height="117" Width="163"/>
+        <DatePicker x:Name="datePicker1" HorizontalAlignment="Left" Margin="246,92,0,0" VerticalAlignment="Top" Height="117" Width="163"/>
+        <DatePicker x:Name="datePicker2" HorizontalAlignment="Left" Margin="506,100,0,0" VerticalAlignment="Top" Height="117" Width="163"/>
     </Grid>
 </Window>
 

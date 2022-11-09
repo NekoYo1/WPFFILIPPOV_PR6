@@ -11,8 +11,8 @@
          MaxLength = "8" Margin = "296,167,296,217" />
         <Label Content = "Пароль" HorizontalAlignment = "Left" Margin = "204,167,0,0"  
          VerticalAlignment = "Top" Width = "70" />
-        <Button Content = "Войти" HorizontalAlignment = "Left" Margin = "421,223,0,0" 
-         VerticalAlignment = "Top" Width = "75" Click = "Button_Click"/>
+        <Button Content = "Войти" HorizontalAlignment = "Center" Margin = "0,223,0,0" 
+         VerticalAlignment = "Top" Width = "192" Click = "Button_Click" Height="57"/>
         <TextBox Name = "statusText" HorizontalAlignment = "Left" Margin = "287,22,0,0"  
          VerticalAlignment = "Top" Width = "200" Height = "38" Visibility="Hidden"/>
         <Label Content = "Логин" HorizontalAlignment = "Left" Margin = "204,114,0,0"  
